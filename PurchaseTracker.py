@@ -6,7 +6,7 @@ class PurchaseTracker:
 
     def add_product_data(self):
         while True:
-            customer_name = input("Enter customer name: ")
+            customer_name = input("Enter customer name(type end to exit): ")
             if customer_name == "end":
                 break
             product_name = input("Enter product name: ")
