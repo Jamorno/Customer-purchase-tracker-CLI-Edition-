@@ -10,9 +10,12 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Ignore VS Code or PyCharm settings (ถ้าใช้ร่วมกับ GitHub)
+# Ignore VS Code or PyCharm settings
 .vscode/
 .idea/
 
-# Ignore environment files (optional)
+# Ignore environment files
 .env
+
+# Ignore data file
+inventory.json
